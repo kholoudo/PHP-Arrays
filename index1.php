@@ -73,6 +73,33 @@
 
 //ex8
 
+//ex9
+
+//ex10
+// $age=15;
+// if ($age<18){
+//     echo "Not eligible";
+// }else{
+//     echo "Eligible";
+// }
+
+//ex11
+// function values($a){
+//     if($a>0){
+//         echo "positive";
+//     }else if($a<0){
+//         echo "negative";
+//     }
+// else {echo "zero";}}
+// values(-5);
+
+//ex12
+// function Grade($average,$g1,$g2,$g3,$g4,$g5){
+//     $average=$g1+$g2+$+$g4+$g5/5;
+//     if()
+// }
+
+
 
 
 
