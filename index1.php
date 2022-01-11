@@ -74,6 +74,22 @@
 //ex8
 
 //ex9
+// function calculator($n1,$n2,$operation){
+//     if($operation === "addition"){
+//         echo $n1 + $n2;
+//     } elseif($operation === "subtraction"){
+//         echo $n1 - $n2;
+//     } elseif($operation === "multiplication"){
+//         echo $n2 * $n1;
+//     } elseif($operation === "division"){
+//         echo $n1 / $n2;
+//     } else{
+//         echo "operation is not clear";
+//     }
+// }
+// calculator(4,7,"division");
+
+
 
 //ex10
 // $age=15;
@@ -94,10 +110,89 @@
 // values(-5);
 
 //ex12
-// function Grade($average,$g1,$g2,$g3,$g4,$g5){
-//     $average=$g1+$g2+$+$g4+$g5/5;
-//     if()
+// function Grade($average){
+//     $Grades=[75,65,55,77,90];
+//     $average=array_sum($Grades)/5;
+//     if($average<60){
+//         echo "F";
+//     }else {
+//         if($average>=60 && $average<70){
+//             echo"D";
+//         }else{
+//             if($average>=70 && $average<80){
+//                 echo"C";
+//             }
+//         }
+//     }
 // }
+// Grade(65);
+//loops
+//ex1
+
+// for($i=1; $i<=10; $i++)
+// {
+//  if($i< 10)
+//  {
+//  echo "$i-";
+//  }
+//  else
+//   {
+//  echo "$i";
+//   }
+// }
+
+//ex2
+// $sum=0;
+// for($i=0;$i<=30;$i++){
+// $sum=$sum+$i;
+// }
+// echo $sum;
+
+//ex3
+
+//ex4
+
+//ex5
+
+//ex6
+// $n = 5;
+// $x = 1;
+// for($i=1;$i<=$n-1;$i++)
+// {
+//  $x*=($i+1); 
+// }
+// echo "The factorial of  $n = $x";
+
+//ex7
+
+//ex8
+// echo substr_count("Orange coding academy","c");
+
+//ex9
+
+//ex10
+
+
+//ex11
+// $n = 5; 
+
+// echo "n = " . $n . "\n";
+// $count = 1;
+// for ($i = $n; $i > 0; $i--) 
+// {
+//   for ($j = $i; $j < $n + 1; $j++) 
+//    {
+//      printf("%4s", $count);
+//      $count++;
+//    } 
+// 	echo "\n";
+//    }
+
+
+
+
+
+
 
 
 
