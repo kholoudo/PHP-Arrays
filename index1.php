@@ -169,8 +169,40 @@
 // echo substr_count("Orange coding academy","c");
 
 //ex9
+// <table align="left" border="1" cellpadding="3" cellspacing="0">
+
+// for($i=1;$i<=6;$i++)
+// {
+// echo "<tr>";
+// for ($j=1;$j<=5;$j++)
+//   {
+//   echo "<td>$i * $j = ".$i*$j."</td>";
+//   }
+//   echo "</tr>";
+//   }
+
+// </table>
 
 //ex10
+// for ($i = 1; $i <= 100; $i++)
+// {
+//   if ( $i%3 == 0 && $i%5 == 0 )
+//    {
+//      echo $i . " FizzBuzz"."\n" ;
+//    }
+//   else if ( $i%3 == 0 ) 
+//    {
+//      echo $i. " Fizz"."\n";
+//    }
+//      else if ( $i%5 == 0 ) 
+//    {
+//      echo $i. " Buzz"."\n";
+//    }
+//      else
+//    {
+//      echo $i."\n";
+//    }
+//  }
 
 
 //ex11
